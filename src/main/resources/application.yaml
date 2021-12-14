@@ -1,0 +1,10 @@
+spring:
+  jackson:
+    time-zone: UTC
+    default-property-inclusion: non_null
+
+met:
+  base-url: "https://api.met.no/"
+open-weather-map:
+  base-url: "https://api.openweathermap.org/"
+  api-key: "${OWM_API_KEY}"
